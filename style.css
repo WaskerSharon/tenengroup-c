@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+
+body{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 32%;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+}
+
+.topStrip{
+    background-color: #000000;
+    height: 40px;    
+}
+
+.topText{
+    color: #ffffff;
+    font-size: 0.8em;
+    padding-top: 15px;
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-bars{
+    color: #5e5e5e;
+    margin-left: 20px;
+    font-size: 2.2em;
+    font-weight: 100;
+}
+
+.fa-shopping-cart{
+    margin: 20px;
+    font-size: 2.2em;
+    margin-right: 20px;
+}
+
+.logoNdText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 12%;
+    height: 12%;
+}
+
+.hrHeader{
+    border-top:1px solid #e5e5e5; 
+}
+
+.helpTitle{
+    text-align: left;
+    margin: 20px 0px 25px 25px; 
+    font-style: italic;
+}
+
+.helpStrip{
+    background-color: #d28281;
+    margin-bottom: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.inHelpStrip{
+    display: flex;
+    align-items: center;
+}
+
+.dropDown{
+    background-color: #f2f2f2;
+    height: 400px;
+    padding: 10px;
+}
+
+.dropDownStrip{
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+
+.helpCircle{
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 45px;
+    width: 45px;
+    margin: 15px;
+}
+
+.fa-list-alt, .fa-tags{
+    color: #d28281;
+    margin: 11px;
+    font-size: 22px;
+}
+
+.fa-angle-down{
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.helpText{
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+h1{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 1em;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.faqBox{
+    margin: 60px 0 60px 0;
+}
+
+.faq{
+    text-transform: capitalize;
+    text-align: left;
+    margin: 30px; 
+    line-height: 40px;
+    font-size: 1.1em;
+}
+
+.testimonials{
+    background-color: #fbf2f3;
+    height: 60%;
+    margin-bottom: 20px;
+    padding: 30px 0px 30px 0px;
+    position: relative;
+}
+
+.inTestimonial{
+    margin: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+q::before { 
+    content: "„";
+    font: 500%/1 Cochin, Ubuntu;
+    color: #e2b2b0;
+    font-weight: 900;
+    position: absolute;
+    top: -25px;
+    left: 16px;
+    }
+  
+  .testiHr{
+    width: 80%;
+    border: 1.5px solid #ffffff;
+    margin: 20px;
+  }
+
+  q::after { 
+    content: "“";
+    font: 500%/1 Cochin, Ubuntu;
+    color: #e2b2b0;
+    font-weight: 900;
+    position: absolute;
+    bottom: -25px;
+    right: 16px;
+  }
+
+  .fa-star{
+      color: #efca5f;
+  }
